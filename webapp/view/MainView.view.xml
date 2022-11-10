@@ -1,0 +1,12 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" 
+          xmlns="sap.m" 
+          controllerName="esj.employees.controller.MainView" 
+          displayBlock="true">
+    <Shell>
+        <Page id="page" title="{i18n>title}">
+            <content>
+                <Text text="{i18n>text1}"/>
+            </content>
+        </Page>
+    </Shell>
+</mvc:View>
